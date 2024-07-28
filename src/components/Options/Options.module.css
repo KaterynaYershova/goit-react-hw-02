@@ -1,0 +1,19 @@
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: max-content;
+}
+
+button:hover {
+  background-color: #ddd;
+}
